@@ -4,28 +4,28 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-> A sleek, animated personal portfolio and resume website with a neural network background — all in a single HTML file.
+> A self-contained, animated personal portfolio and resume website — the entire site lives in a single `index.html` with zero dependencies.
 
-## About
+## Overview
 
-A modern, single-page portfolio website built with pure HTML, CSS, and JavaScript. Features a dark-themed design with an animated neural network canvas background, smooth scroll animations, glassmorphism effects, and a fully responsive layout. Showcases skills, experience, projects, and contact information.
+A modern, single-page portfolio site built with vanilla HTML, CSS, and JavaScript. It features a dark theme, an animated neural-network canvas background, glassmorphism surfaces, and scroll-triggered animations, all packaged in one file so it can be opened directly in a browser or dropped onto any static host. The page presents the standard resume sections — hero, about, skills, experience, projects, certifications, and contact — in a fully responsive layout.
+
+## Key Features
+
+- **Animated neural network background** rendered with the HTML5 Canvas API.
+- **Dark theme** with glassmorphism panels and a grid overlay.
+- **Responsive design** across mobile, tablet, and desktop.
+- **Scroll animations** driven by the Intersection Observer API.
+- **Resume sections** — Hero, About, Skills, Experience, Projects, Certifications, Contact.
+- **Interactive elements** — hover effects, animated skill bars, and project cards.
+- **Zero dependencies** — pure vanilla HTML/CSS/JS, no build step.
+- **Single file** — the complete site ships in one `index.html`.
 
 ## Tech Stack
 
 - **HTML5** — semantic markup
 - **CSS3** — custom properties, grid/flexbox, animations, glassmorphism
-- **JavaScript** — Canvas API for neural network animation, Intersection Observer for scroll effects
-
-## Features
-
-- **Animated neural network background** using HTML5 Canvas
-- **Dark theme** with glassmorphism and grid overlay
-- **Responsive design** — mobile, tablet, and desktop
-- **Smooth scroll animations** with Intersection Observer API
-- **Sections:** Hero, About, Skills, Experience, Projects, Certifications, Contact
-- **Interactive elements** — hover effects, animated skill bars, project cards
-- **Zero dependencies** — pure vanilla HTML/CSS/JS
-- **Single file** — entire site in one `index.html`
+- **JavaScript** — Canvas API for the background animation, Intersection Observer for scroll effects
 
 ## Getting Started
 
@@ -42,7 +42,7 @@ cd resume_fullstack
 
 ### Run
 
-Open `index.html` in your browser, or serve locally:
+Open `index.html` directly in your browser, or serve it locally:
 
 ```bash
 npx serve .
